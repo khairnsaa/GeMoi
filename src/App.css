@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  background-color: #1c2435;
+  color: #fafafa;
+}
+
+.add-game-container,
+.container-home{ padding: 2rem 1.5rem; }
+
+.nav-link{ 
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.nav-link:first-child{ margin-left: 1rem; }
+
+.trending-movies{
+  border-bottom: 0.15rem solid #fafafa;
+  padding-bottom: 2rem;
+}
+
+.title-home{
+  margin: 0.9rem 0;
+}
+
+.movie-container h1, 
+.games-container h1,
+.add-game-container h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-component{ margin: 0.8rem !important; }
+
+.card-row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.rating{
+  font-size: 0.8rem;
+  color: #f7cd43;
+}
+
+.title{
+  font-weight: bold;
+  max-width: 18ch;
+}
+
+.title-see-all{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.see-all{
+  text-decoration: none;
+  color: #f7e543;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.movie-description{ 
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sidebar-link{
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+form{
+  padding: 2rem;
+  border-radius: 0.4rem;
+}
+
+.game-player{ display: flex !important;}
+
+.search-content{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.4rem 1rem 1.4rem 0;
+}
+
+.filter-input{
+  margin: 0 1rem !important;
+}
+
+.filter-pop{
+  display: flex !important;
+  align-items: center;
+}
+
+.detail-movie-container{
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  gap: 2rem;
+  margin: 2rem;
+  min-height: 72vh;
+}
+
+.detail-movie-container,
+.manage-game-container,
+.manage-movies-container{
+  min-height: 75vh;
+}
+
+.image-content img{
+  border-radius: 0.5rem;
+}
+
+.detail-movie-container h1{
+  margin: 1rem 0 2rem 0;
+}
+
+.detail-movie-container span{
+  font-weight: 700;
+  display: inline-block;
+  margin: 0 0.4rem 0.8rem 0;
+}
+
+.review{
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 0.15rem solid #fafafa;
+}
+
+.table-row:hover{ cursor: pointer; }
+
+footer{
+  text-align: center;
+  background-color: #2E3B55;
+  padding: 1rem 0;
+  color: #fafafa !important;
+}
+
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #265d81;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #243046;
+}
